@@ -30,7 +30,6 @@ jobs:
       - name: Run Auto Post Script
         # Menggunakan env untuk memasukkan API keys dari GitHub Secrets
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}

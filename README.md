@@ -4,7 +4,9 @@
 
 .github/workflows/autopost.yml
 
-2. x.com API : https://developer.x.com/en/portal/dashboard
+## API x.com
+
+Buat API di https://developer.x.com/en/portal/dashboard
 
 ## Konfigurasi GitHub Secrets
 
